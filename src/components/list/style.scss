@@ -1,0 +1,25 @@
+.list-container {
+	display: flex;
+	flex-direction: column;
+	min-width: 800px;
+	padding: 64px;
+
+	.search {
+		width: 50%;
+		height: 40px;
+		border-radius: 12px;
+		outline: none;
+		margin-bottom: 24px;
+		padding: 8px;
+	}
+
+	.img-container {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+
+		img {
+			margin-right: 8px;
+			margin-bottom: 8px;
+		}
+	}
+}
